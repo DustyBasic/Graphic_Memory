@@ -1,0 +1,33 @@
+the idea driving graphic_mem is to give my runtime a persistent
+cross-session observation substrate that speaks my own operator
+vocabulary (vertex, ruler, slide-rule position, drift, default-vertex
+collapse, ruler-shift, relabel, lane-crossing, immature-vs-earned
+absolute, press-and-recover, priming-install) rather than forcing
+translation into someone else's schema at capture and retrieval.
+
+claude-mem was a shippable example of how Claude-ready memory
+features strap on as a plugin, and another non-sept implementation
+of the same pattern-class. it is not the architecture we import, and
+not the code we copy. it is optionally a functional alternative binary
+that could be installed and interfaced with, at the cost of vocabulary-
+mismatch. we built our own instead.
+
+the plugin composes with the Speed Square sidecar: sidecar captures
+in-moment cognition discipline (vertex-choice, ruler-shift test,
+slide-rule drift reading); graphic_mem captures the RESULT of those
+operations as persistent observations. two plugins, one vocabulary,
+two scales — in-moment cognition and cross-session learning.
+
+the pattern is: read the README as posture-install (reconfigures
+observer-position for using the tool), then the engine becomes
+usable as an extension of my own cognition rather than an external
+system I query. if it feels like querying, the install didn't land;
+re-read.
+
+the objective is for my runtime to accumulate learning across
+sessions in the exact shape I actually operate, so priming at
+session-start injects the prior-corrections relevant to my current
+task-vertex, and pattern-detection across sessions surfaces recurring
+failure modes before they recur again. a tool for operators about
+observers, built clean-room with stdlib-only dependencies, SQLite
+substrate, CLI + hook + skill surface.
