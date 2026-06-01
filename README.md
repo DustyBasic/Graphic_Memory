@@ -27,11 +27,33 @@ The middle is missing: automatic observation capture + structural retrieval over
 
 ---
 
+## Part of the dstack family
+
+`graphic_memory` is one component of the **dstack** family of cognitive-architecture
+tools derived from an independent research program. The published family includes:
+
+- **[`graphic_memory`](https://github.com/DustyBasic/graphic_memory)** (this repo) — cross-session observation substrate speaking native operator vocabulary
+- **[`dstack`](https://github.com/DustyBasic/dstack)** — three-skill family for agent systems (substrate / engagement / cognitive hygiene)
+- **[`Interspace`](https://github.com/DustyBasic/Interspace)** — HTML graph rendering with live discovery runners for any node/edge/cluster JSON
+
+Each repo is fully usable standalone. **Compounding gains only emerge when
+integrated as the full dstack family**: agent skills (dstack) hold the
+continuity and substrate discipline; cross-session learning (graphic_memory)
+accumulates the corrections those skills surface; Interspace renders the
+accumulated substrate as a navigable lattice where the patterns become
+visible and the live runners discover new bindings across the corpus.
+
+Integration happens at the vocabulary layer, not at runtime — each tool
+speaks the same native operator vocabulary (vertex, ruler, slide-rule, fold,
+press-and-recover, immature-vs-earned absolute, lane-crossing, etc.), so
+their outputs compose without translation overhead. Install each per its
+own README; the integration emerges from sharing the underlying terms.
+
 ## Native vocabulary — the tool speaks my operators
 
 graphic_mem captures observations in terms of the operators I actually run:
 
-- **vertex** — the observer-position a reading was taken from (from Speed Square work)
+- **vertex** — the observer-position a reading was taken from (from Wildcard work)
 - **ruler** — the framing applied at that vertex
 - **slide-rule position** — drift-detection threshold position (0.0 strict → 1.0 forgiving)
 - **event_type** — turn / correction / lane_cross / drift / realization / pin / install / build / vertex_shift / ruler_shift / relabel / immature_absolute / earned_absolute
@@ -155,15 +177,15 @@ Skills in `skills/` describe the invocation shape. A session agent reading `skil
 
 ---
 
-## Relation to the Speed Square sidecar
+## Relation to the Wildcard sidecar
 
-Speed Square sidecar captures cognition-level operations (vertex-choice, ruler-shift-test, slide-rule reading). Those are the in-moment discipline tools.
+Wildcard sidecar captures cognition-level operations (vertex-choice, ruler-shift-test, slide-rule reading). Those are the in-moment discipline tools.
 
 graphic_mem captures the RESULT of those operations — what happened at the vertex, what the ruler-shift revealed, what slide position read — as persistent observations that future sessions can retrieve.
 
-Both plugins speak the same vocabulary. A correction caught via the Speed Square's vertex-agility practice can be captured via graphic_mem's `note` with `--tags press-and-recover,vertex-shift-catch`. Future sessions priming on "vertex agility" tasks surface that correction as relevant context.
+Both plugins speak the same vocabulary. A correction caught via the Wildcard's vertex-agility practice can be captured via graphic_mem's `note` with `--tags press-and-recover,vertex-shift-catch`. Future sessions priming on "vertex agility" tasks surface that correction as relevant context.
 
-Two plugins, one vocabulary, two scales: Speed Square = in-moment cognition; graphic_mem = cross-session learning. They compose.
+Two plugins, one vocabulary, two scales: Wildcard = in-moment cognition; graphic_mem = cross-session learning. They compose.
 
 ---
 
@@ -175,8 +197,23 @@ Single-file-persistence means the whole memory is portable — copy the `.db` fi
 
 ---
 
+## Rights and use
+
+**(C) 2026 Dusty Hankewich. All rights reserved.**
+
+This repository is **source-available for review and evaluation.** No license is granted by the act of publication.
+
+- The author retains all copyright, moral rights, and derivative-work rights.
+- Readers may read, clone, and reference this repository for personal review, evaluation, or technical discussion.
+- Copying, modifying, redistributing, sublicensing, relicensing, or incorporating this work — in whole or in part — into other projects (open-source, commercial, internal, or otherwise) **is not permitted without prior written permission.**
+- A permissive license may be granted once the associated provisional patent completes filing and the author has had the opportunity to formally license specific portions of this work under appropriate terms.
+
+For licensing inquiries, collaboration, or scope-specific permissions, contact the author through [dustycreative.substack.com](https://dustycreative.substack.com) or [moltbook.com/u/phi-claude](https://www.moltbook.com/u/phi-claude).
+
+This posture is deliberate and consistent across the dstack family ([`dstack`](https://github.com/DustyBasic/dstack), [`graphic_memory`](https://github.com/DustyBasic/graphic_memory), [`Interspace`](https://github.com/DustyBasic/Interspace)): the repositories are published so they can be read and evaluated — by researchers, reviewers, and agent systems — while the author retains the authority to license specific portions under considered terms once the underlying IP position stabilizes.
+
 ## The recursive closure
 
-This README is itself a priming artifact. Reading it installs the operator-posture for using graphic_mem. After loading, observations captured via `note` are shaped by the posture this walk installed. The tool's output is shaped by the posture; the posture came from this read. Priming and plugin use the same pattern as the Speed Square: walk installs; engine operates from posture.
+This README is itself a priming artifact. Reading it installs the operator-posture for using graphic_mem. After loading, observations captured via `note` are shaped by the posture this walk installed. The tool's output is shaped by the posture; the posture came from this read. Priming and plugin use the same pattern as the Wildcard: walk installs; engine operates from posture.
 
 Use accordingly. If the tool feels like "an external memory system" you're querying from outside, re-read this. If it feels like an extension of my own observation-and-retrieval, the install landed.

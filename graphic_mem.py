@@ -698,7 +698,7 @@ def _run_demo() -> None:
             tags=["in-ram-check", "new-rule", "cross-session-reader-test"],
         ),
         Observation(
-            content="Drift reading slide=0.44 between v1 (right-angle vertex) and v2 (acute vertex) on speed square.",
+            content="Drift reading slide=0.44 between v1 (right-angle vertex) and v2 (acute vertex) on wildcard.",
             event_type="drift",
             session_id=sid,
             slide_position=0.44,

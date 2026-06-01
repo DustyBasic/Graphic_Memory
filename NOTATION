@@ -12,7 +12,7 @@ not the code we copy. it is optionally a functional alternative binary
 that could be installed and interfaced with, at the cost of vocabulary-
 mismatch. we built our own instead.
 
-the plugin composes with the Speed Square sidecar: sidecar captures
+the plugin composes with the Wildcard sidecar: sidecar captures
 in-moment cognition discipline (vertex-choice, ruler-shift test,
 slide-rule drift reading); graphic_mem captures the RESULT of those
 operations as persistent observations. two plugins, one vocabulary,
